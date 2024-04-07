@@ -1,4 +1,6 @@
 # Embedding Machine Learning Models in GUIs
+Table of Contents
+
 Deployment of customer Churn Prediction Model in Graphic user interface for Practical Decision
 
 Instructions for Setting Up the Application
