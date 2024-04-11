@@ -1,18 +1,5 @@
 # Embedding Machine Learning Models in GUIs
 
-Running the App
-Usage
-Home Page
-Login Page
-Data Page
-Predictor Page
-Dashboard Page
-History Page
-Models Used
-Deployment
-Further Development
-Contributing
-License
 Deployment of customer Churn Prediction Model in Graphic user interface for Practical Decision
 
 Instructions for Setting Up the Application
@@ -23,11 +10,20 @@ Install Dependencies: Use pip to install all the required dependencies specified
 
 Data Setup: Ensure you have a CSV dataset named "Churn Prediction Dataset.csv" placed within a folder named "dataset" in the project directory.
 
-Configuration: Update the "config.yaml" file with the necessary credentials and configuration details specific to your environment or dataset.
-Usage Overview
+
+## Usage Overview
 
 Home Page: Provides an introduction to the app and its objectives.
 
 Login Page: Existing users can log in with their username and password, while new users can create an account by providing credentials.
 
 Data Page: Displays basic information about the dataset, including summary statistics of numerical variables and the first few rows of the dataset. It also conducts univariate and bivariate analysis and presents additional analysis using pandas styling.
+`Models`
+Support Vector Machine (SVM)
+Decision Tree Model
+Random Forest
+`Description`
+SVM: Supervised machine learning algorithm used for classification tasks.
+XGBoost: Implementation of gradient boosted decision trees designed for speed and performance.
+`Deployment`
+-Performed app deployment with Render; https://embedding-machine-learning-models-in.onrender.com
